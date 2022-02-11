@@ -14,6 +14,7 @@ jobs:
         with:
           node-version: 14
       - run: yarn install -g husky
+      - run: yarn install -g pinst
       - run: yarn install --frozen-lockfile
 
   publish-gpr:
