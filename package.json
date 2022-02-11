@@ -1,6 +1,6 @@
 {
   "name": "@to-the-source/serverless-plugin-aws-alerts",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -8,9 +8,9 @@
     "lint-fix": "eslint . --fix",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "prepare": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "prepare": "npx husky install",
+    "prepublishOnly": "npx pinst --disable",
+    "postpublish": "npx pinst --enable"
   },
   "repository": {
     "url": "https://github.com/to-the-source/serverless-plugin-aws-alerts.git",
