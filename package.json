@@ -12,6 +12,9 @@
     "prepublishOnly": "npx pinst --disable",
     "postpublish": "npx pinst --enable"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "repository": {
     "url": "https://github.com/to-the-source/serverless-plugin-aws-alerts.git",
     "type": "git"
